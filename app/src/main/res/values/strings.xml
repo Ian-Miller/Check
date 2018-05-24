@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Check</string>
+    <string name="consume">consume</string>
+    <string name="receive">receive</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">title</string>
+    <string name="back">back</string>
+    <string name="next">next</string>
+    <string name="from">from</string>
+    <string name="_for">for</string>
+</resources>
