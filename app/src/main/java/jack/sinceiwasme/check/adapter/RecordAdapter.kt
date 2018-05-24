@@ -45,7 +45,7 @@ class RecordAdapter : PagedListAdapter<Record, RecordAdapter.Holder>(DIFF_CALLBA
             }
 
             override fun areContentsTheSame(oldItem: Record, newItem: Record): Boolean {
-                return oldItem.record == newItem.record
+                return oldItem.record == newItem.record && oldItem.label == newItem.label && oldItem.time == newItem.time
             }
         }
     }
